@@ -13,50 +13,166 @@
     <link rel="stylesheet" href="style.css">
             <!-- GOOGLE FONT -->
     <link href="https://fonts.googleapis.com/css?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900|Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i" rel="stylesheet">
-    <!-- images : https://github.com/becodeorg/Startup-Brussels-Johnson-5.25/tree/master/1.The-Field/week_03/covid-19-challenge/images/ -->
-    <title>Document</title>
+    <!-- <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto&display=swap" rel="stylesheet">     -->
+    <!-- font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif; -->
+    <!-- images : 
+        https://github.com/becodeorg/Startup-Brussels-Johnson-5.25/tree/master/1.The-Field/week_03/covid-19-challenge/images/ 
+    -->
+
+    <title>Covid-19</title>
 </head>
+
 <body>
-    <div>
-        <div class="page-header">
-            <!-- <span class="floating-image">
-                <img src="images/people.png" alt="people">
-            </span> -->
-            <nav class="navbar">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-md-3 col-6"><img class="img-responsive" src="images/logo.png" alt="logo"></div>
-                        <div class="col-md-9 col-6">
-                            <div class="collapse navbar-collapse d-none d-sm-none d-md-none">
-                                
-                                <ul class="navbar-nav navbar-style">
-                                    <li class="nav-item active"><a href="#">home</a></li>
-                                    <li class="nav-item"><a href="#">Covid-19</a></li>
-                                    <li class="nav-item"><a href="#">prevention</a></li>
-                                    <li class="nav-item"><a href="#">blog</a></li>
-                                    <li class="nav-item"><a href="#">faq</a></li>
-                                    <li class="nav-item"><a href="#">contact us</a></li>
-                                    <li class="nav-item"><a class="btn btn-primary" href="#">call a doctor</a></li>    
-                                </ul>
-    
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </nav>
-            <div>
-                <div class="home">
-                    <h1>Covid-19</h1>
-                    <p>basic protective measures</p>
-                    <h1>social distancing</h1>
-                    <p>for emergency contact (012) 345 6789</p>
-                    <a href="#">get started now!</a>
-                </div>
-                <div class="three">
-    
-                </div>
+    <header class="container-fluid pl-5 pt-5 pr-5 text-white text-uppercase">
+
+        <nav class="row navbar-expand ml-5">
+            <div class="col-5"><a href="#"></a><img class="img-responsive" src="images/logo.png" alt="logo"></a></div>
+            <div class="col-7">
+                <ul class="navbar-collapse navbar-nav mr-auto">
+                    <li class="nav-item p-1 active"><a class="nav-link " href="#">home</a></li>
+                    <li class="nav-item p-1"><a class="nav-link " href="#">Covid-19</a></li>
+                    <li class="nav-item p-1"><a class="nav-link " href="#">prevention</a></li>
+                    <li class="nav-item p-1"><a class="nav-link " href="#">blog</a></li>
+                    <li class="nav-item p-1"><a class="nav-link " href="#">faq</a></li>
+                    <li class="nav-item p-1"><a class="nav-link " href="#">contact us</a></li>
+                    <li class="nav-item p-1"><a class="nav-link  bg-danger rounded-pill" href="#">call a doctor</a></li>
+                </ul>
             </div>
+        </nav>
+        
+        <div class="ml-5 margin-t " style="flex: auto; line-height:5px">
+                <h1>Covid-19</h1>
+                <p style="font-size: 25px;">basic protective measures</p>
+                <h1>social distancing</h1>
+                <p>for emergency contact (012) 345 6789</p>
+                <div class="mt-5"><a class="text-white bg-danger rounded-pill p-3 pr-4 pl-4" href="#">get started now!</a></div> 
+        </div>
     
+        <div  class="poeple"><img style="width: 53%" src="images/people.png" alt="people"></div>     
+           
+    </header>
+
+    <div class="part-2 shadow">
+        <div class="row container-fluid w-75 m-auto text-center">
+            <div class="col-3" style="color: red;">
+                <img class="virus" src="images/sprite1.png" alt="sprite">
+                <p>Total Confirmed Cases</p>
+                <h3>882,068</h3>
+            </div>
+            <div class="col-3" style="color:rgb(138, 59, 59)">
+                <img class="virus" src="images/sprite2.png" alt="sprite">
+                <p>Total Deaths</p>
+                <h3>37,384</h3>
+            </div>
+            <div class="col-3" style="color: rgb(158, 86, 240);">
+                <img class="virus" src="images/sprite3.png" alt="sprite">
+                <p>Recovered</p>
+                <h3>185,067</h3>
+            </div>
+            <div class="col-3 mb-5" style="color: rgb(231, 105, 1);">
+                <img class="virus" src="images/sprite4.png" alt="sprite">
+                <p>Countries</p>
+                <h3>190+</h3>
+            </div>
+        </div>    
+    </div>
+
+    <div class="part-3 d-flex">
+        <div class="m-2 p-5">
+            <img src="images/covid-19.png" alt="covid">
+        </div>
+        <div class="m-2 p-5">
+            <h3> What Is Coronavirus?</h3>
+            <span>Coronavirus disease (COVID-19) is an infectious disease caused by a newly discovered coronavirus.</span>
+            <p> Most people infected with the COVID-19 virus will experience mild to moderate respiratory illness 
+                and recotver without requiring special treatment. Older people, and those with underlying medical 
+                problems like cardiovascular disease, diabetes, chronic respiratory disease, and cancer are more likely 
+                to develop serious illness.
+            </p>
+
+            <h4> How Is COVID-19 Diagnosed?</h4>
+            <p> Diagnosis may be difficult with only a physical exam because mild cases of COVID-19 may appear 
+                similar to the flu or a bad cold. A laboratory test can confirm the diagnosis. 
+            </p>
+               
+            <h4>How Is COVID-19 Treated?</h4>
+            <p>As of now, there is not a specific treatment for the virus. People who become sick from COVID-19 
+                should be treated with supportive measures: those that relieve symptoms. For severe cases, there may 
+                be additional options for treatment, including research drugs and therapeutics.
+            </p> 
+        </div>
+    </div>
+    <div class="part-4">
+        <div class="text-center p-5">
+            <h3>Symptoms Of Coronavirus</h3>
+            <span>The most common symptoms of COVID-19 are fever, tiredness, and dry cough.</span>
+        </div>
+        <div class="row container-fluid text-center m-4 mt-5">
+            <div class="col-4">
+                <div class="border border-dark rounded-circle w-50 m-auto p-5"><div class="sprite m-auto"></div></div>
+                <h4 class="mt-3" >Headache</h4>
+                <p >Regularly and thoroughly clean your hands with an alcohol-based hand rub or wash them with soap and water.</p>
+            </div>
+            <div class="col-4">
+                <div class="border border-dark rounded-circle w-50 m-auto p-5"><div class="sprite m-auto"></div></div>
+                <h4 class="mt-3" >Headache</h4>
+                <p >Regularly and thoroughly clean your hands with an alcohol-based hand rub or wash them with soap and water.</p>
+            </div>
+            <div class="col-4">
+                <div class="border border-dark rounded-circle w-50 m-auto p-5"><div class="sprite m-auto"></div></div>
+                <h4 class="mt-3" >Headache</h4>
+                <p >Regularly and thoroughly clean your hands with an alcohol-based hand rub or wash them with soap and water.</p>
+            </div>
+        </div>
+        <div class="row container-fluid text-center m-4 mt-5">
+            <div class="col-4">
+                <div class="border border-dark rounded-circle w-50 m-auto p-5"><div class="sprite m-auto"></div></div>
+                <h4 class="mt-3" >Headache</h4>
+                <p >Regularly and thoroughly clean your hands with an alcohol-based hand rub or wash them with soap and water.</p>
+            </div>
+            <div class="col-4">
+                <div class="border border-dark rounded-circle w-50 m-auto p-5"><div class="sprite m-auto"></div></div>
+                <h4 class="mt-3" >Headache</h4>
+                <p >Regularly and thoroughly clean your hands with an alcohol-based hand rub or wash them with soap and water.</p>
+            </div>
+            <div class="col-4">
+                <div class="border border-dark rounded-circle w-50 m-auto p-5"><div class="sprite m-auto"></div></div>
+                <h4 class="mt-3" >Headache</h4>
+                <p >Regularly and thoroughly clean your hands with an alcohol-based hand rub or wash them with soap and water.</p>
+            </div>
+        </div>
+
+    </div>
+    <div class="part-5">
+        <div class="text-center w-50 m-auto">
+            <h3>How To Protect Yourself</h3>
+            <span>You can protect yourself by washing your hands frequently, avoiding touching your face, and 
+                avoiding close contact (1 meter or 3 feet) with people who are unwell.
+            </span>
+        </div>
+        <div class="colones">
+            <div class="col-4">
+                <h4>Wash Your Hands</h4>
+                <p>
+                Regularly and thoroughly clean your hands with an alcohol-based hand rub or 
+                wash them with soap and water. 
+                </p>
+            </div>
+            <div class="col-4">
+                <h4>Wash Your Hands</h4>
+                <p>
+                Regularly and thoroughly clean your hands with an alcohol-based hand rub or 
+                wash them with soap and water. 
+                </p>
+            </div>
+            <div class="col-4">
+                <h4>Wash Your Hands</h4>
+                <p>
+                Regularly and thoroughly clean your hands with an alcohol-based hand rub or 
+                wash them with soap and water. 
+                </p>
+            </div>
         </div>
     </div>
 </body>

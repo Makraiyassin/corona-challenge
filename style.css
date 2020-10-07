@@ -1,5 +1,76 @@
-.page-header {
+body {
+  font-family: "Open Sans", sans-serif;
+}
+body span {
+  font-size: 14px;
+  color: #6b6b6b;
+  display: block;
+  font-style: italic;
+  margin-bottom: 30px;
+  line-height: 24px;
+}
+body header {
   background-image: url(images/background-header.jpg);
+}
+body header ul li a {
+  color: white;
+}
+body header ul li a:hover {
+  color: red;
+}
+body header h1 {
+  font-size: 65px;
+  font-weight: bolder;
+}
+body header .margin-t {
+  margin-top: 15%;
+}
+body header .poeple {
+  display: flex;
+  justify-content: flex-end;
+}
+body h3 {
+  font-weight: bold;
+}
+body .part-2 {
+  background-image: url(images/bg1.png);
+}
+body .part-2 .virus {
+  margin-left: 8%;
+}
+body .part-3 h3 {
+  font-size: 35px;
+  font-weight: bolder;
+}
+body .part-3 h4 {
+  font-size: 20px;
+  font-weight: bold;
+}
+body .part-3 p {
+  font-size: 15px;
+}
+body .part-4 {
+  background-image: url(images/bg2.png);
+}
+body .part-4 h3 {
+  font-size: 38px;
+  font-weight: bolder;
+}
+body .part-4 h4 {
+  font-weight: bolder;
+}
+body .part-4 span {
+  font-size: small;
+}
+body .part-4 .sprite {
+  width: 60px;
+  height: 60px;
+  background: url(images/sprite.png) 0 0;
+}
+body .part-5 .colones {
+  background-image: url(images/bg3.png);
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 /*# sourceMappingURL=style.css.map */
