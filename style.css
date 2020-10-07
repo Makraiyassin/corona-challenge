@@ -32,42 +32,37 @@ body header .poeple {
 body h3 {
   font-weight: bold;
 }
-body .part-2 {
+body .section-1 {
   background-image: url(images/bg1.png);
 }
-body .part-2 .virus {
+body .section-1 .virus {
   margin-left: 8%;
 }
-body .part-3 h3 {
+body .section-2 h3 {
   font-size: 35px;
   font-weight: bolder;
 }
-body .part-3 h4 {
+body .section-2 h4 {
   font-size: 20px;
   font-weight: bold;
 }
-body .part-3 p {
+body .section-2 p {
   font-size: 15px;
 }
-body .part-4 {
+body .section-3 {
   background-image: url(images/bg2.png);
 }
-body .part-4 h3 {
+body .section-3 h3 {
   font-size: 38px;
   font-weight: bolder;
 }
-body .part-4 h4 {
+body .section-3 h4 {
   font-weight: bolder;
 }
-body .part-4 span {
+body .section-3 span {
   font-size: small;
 }
-body .part-4 .sprite {
-  width: 60px;
-  height: 60px;
-  background: url(images/sprite.png) 0 0;
-}
-body .part-5 .colones {
+body .section-4 .colones {
   background-image: url(images/bg3.png);
   background-repeat: no-repeat;
   background-position: center;
