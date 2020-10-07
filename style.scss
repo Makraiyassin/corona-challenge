@@ -107,11 +107,6 @@ body{
         span{
             font-size: small;
         }
-        .sprite{
-            width: 60px;
-            height: 60px;
-            background: url(images/sprite.png) 0 0;
-        }
     }
     .part-5{
         .colones{
@@ -119,6 +114,11 @@ body{
             background-repeat: no-repeat;
             background-position: center;
         }
+    }
+    .sprite{
+        width: 60px;
+        height: 60px;
+        background: url(images/sprite.png) 0 0;
     }
     
 }
